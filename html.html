@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>www.portfolio.com</title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="shortcut icon" href="images/fav.jpeg" type="image/x-icon">
+	<style>
+
+	</style>
+	
+</head>
+<body>
+<div id="header">
+	<div class="navbar">
+		<nav>
+			<img src="images/mylogo.png" class="logo">
+			<div class="tags">
+			<ul id="ul">
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portofolio</a></li>
+				<li><a href="#content">Contacts</a></li>
+				<img src="images/soft.jpg" alt="" id="hide" class="navbtn" onclick="hideNav()">
+			</ul>
+			<img src="images/davis.png" alt="" id="show" class="navbtn" onclick="showNav()">
+			</div>
+		</nav>
+		</div>
+		
+	<div class="container">
+		<div class="hresource">
+		<div class="header-text">
+			<p>Web/Software Developer</p>
+			<h1>Hi !,<br/>I am <span>Roy</span> from UMaT</h1>
+			<p>Hit me you <br> if you  need anything</p>
+		</div>
+		<div class="profile_picture">
+			<img src="images/davis.png" alt="my_profile_picture">
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- -------------about---------- -->
+<div id = "about">
+	<div id="container">
+		<div class="row">
+			<div class="about-col-1">
+				<img src="images/IMG_20221222_180808_468.jpg" alt="me">
+			</div>
+			<div class="about-col-2">
+				<h1 class="subtitle">About Me</h1>
+				<p>Video provides a powerful way to help you 
+					prove your point. When you click Online Video, 
+					you can paste in the embed code for the video 
+					you want to add. You can also type a keyword 
+					to search online for the video that best fits 
+					your document.</p>
+					<div class="tabtitle">
+						<p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tablinks" onclick="opentab('experience')">Experience</p>
+						<p class="tablinks" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Web</span><br>Designing Web interfaces</li>
+							<li><span>App</span><br>App development</li>
+							<li><span>Python</span><br>Designing softwares</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>Amazon</span><br>2016-2019</li>
+							<li><span>Apple</span><br/>2019-2020</li>
+							<li><span>Tesla</span><br>2023-Date</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>Bachelor</span><br>University of Mines And Tech</li>
+							<li><span>Msc.</span><br>Mechigand University</li>
+							<li><span>PhD</span><br>St. Ambrose</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- -------------------Services------ -------->
+<div id="services">
+	<div class="container" >
+		<h1 class="subtitle">My Services</h1>
+		<div class="services-list">
+			<div>
+				<h2>Web Design</h2>
+				<p> We design quality and reponsive websites for 
+					all people. Contact us for it all.</p>
+					<a href="#">Learn More</a>
+			</div>
+			<div>
+			<h2>App Design</h2>
+			<p> We are experts in app development using kotlin . 
+				Contact us for it all.</p>
+				<a href="#">Learn More</a>
+			</div>
+			<div>
+			<h2>Python Consoles</h2>
+			<p> We are experts in solving problems using  python. 
+				Contact us for it all.</p>
+				<a href="#">Learn More</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ----------------Portfolio-------------- -->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="subtitle">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/afd7fadff7ca63401ede3becd08b730d.gif" alt="teaching">
+				<div class="layer">
+					<h3>Social Media App</h3>
+					<p>The app connects you to the talented 
+						people arond the world</p>
+						<a href="#"></a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/415-4159377_clipart-doctor-black-and-white-doctor-clipart-black.png" alt="nursing">
+				<div class="layer">
+					<h3>Music App</h3>
+					<p>The app connects you to the talented 
+						people arond the world</p>
+						<a href="#"></a>
+				</div>		
+			</div>
+			<div class="work">
+				<img src="images/download.png" alt="stand">
+				<div class="layer">
+					<h3>Online shopping App</h3>
+					<p>The app connects you to the talented 
+						people arond the world</p>
+						<a href="#"></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See more</a>
+	</div>
+</div>
+<!-- -----------contact-------- -->
+<div id="content">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="subtitle">Contact Me</h1>
+				<p>
+					<img src="images/wifi.jpg" alt="wifi"> 
+					davidarhin@gmail.com
+				</p>
+				<p>
+					<img src="images/telephone.png" alt="telephone" style="background-color: aqua;"> 
+					0256798179
+				</p>
+				<div class="info">
+					<img src="images/insta.png" alt="instagram">
+					<img src="images/facebook.png" alt="facebook">
+					<img src="images/whatsapp.png" alt="whatsapp">
+				</div>
+				<a href ="project calender.docx" download class="btn">Download Project Calender</a>
+			</div>
+			<div class="contact-right">
+				<form action="">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name= "Email" placeholder="Your Email" required>
+					<textarea rows="6" name = "Message" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="copy">
+		<p>Copyright @ Daves.</p>
+	</div> 
+</div>
+
+
+<script src="js.js">
+	
+</script>
+
+
+
+<!-- <div class="right">In my younger and more vulnerable years 
+	my father gave me some advice that I've been turning over 
+	in my mind ever since</div> -->
+</body>
+</html>
