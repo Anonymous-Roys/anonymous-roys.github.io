@@ -30,6 +30,9 @@ nav .tags{
 	position: fixed;
 	right: 100px;
 	z-index: 1;
+	padding: 6px;
+	background: #08080891;
+	border-radius: 7px;
 
 }
 .logo{
@@ -67,6 +70,8 @@ nav ul li a:hover::after{
 	width: 20px;
 	height: 20px;
 	display: none;
+	color: #fff;
+	background-color: #fff;
 }
 .hresource{
 	/* background: #f14b80; */
@@ -90,13 +95,17 @@ nav ul li a:hover::after{
 .profile_picture{
 	margin-top: 10px;
 	margin-left: 30px;
+	width: 420px;
 	
 }
 .profile_picture img{
 	border-radius: 20%;
+	width: 100%;
+	transition: all 0.4s;
+}
+.profile_picture img:hover{
 	transform: scale(1.23);
 }
-
 
 
 
@@ -113,10 +122,19 @@ nav ul li a:hover::after{
 }
 .about-col-1{
 	flex-basis: 35%;
+	background-color: #f192b0;
+	background: url(images/profile.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .about-col-1 img{
 	width: 100%;
 	border-radius: 15px;
+	display: none;
+}
+
+.fisrt_to_come{
+	display: block;
 }
 .about-col-2{
 	flex-basis: 60%;
@@ -199,12 +217,22 @@ nav ul li a:hover::after{
 	font-size: 12px;
 	margin-top: 20px;
 	display: inline-block;
+	padding: 4px;
+	background: #8d7f84;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
+
 .services-list div:hover{
 	background: #ff004f;
 	transform: translate3d(-10px, -12px, 0);
 }
-
+.services-list div:hover a{
+	background: #f192b0;
+}
+.services-list div a:hover {
+	background: #f03d76;
+}
 /* -----------portfolio----------- */
 #portfolio{
 	padding: 50px 0;
@@ -213,12 +241,13 @@ nav ul li a:hover::after{
 	border-radius: 10px;
 	position: relative;
 	overflow: hidden;
+	height: 80%;
 }
 .work img{
 	width: 100%;
 	border-radius: 10px;
 	display: block;
-	height: 430px;
+	height: 100%;
 	transition: transform 0.5s;
 }
 .work:hover{
@@ -338,7 +367,7 @@ form .btn{
 /* -----------for small screen----- */ 
 @media only screen and (max-width: 810px){
 	#header{
-		background: url("images/davis.png");
+		background: url("images/serious.jpg");
 		background-repeat: no-repeat;
 		background-position: 110px 100px;
 		background-size: contain;

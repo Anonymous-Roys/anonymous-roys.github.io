@@ -25,3 +25,30 @@ var tablinks = document.getElementsByClassName("tablinks");
 		event.currentTarget.classList.add("active-link");
 		document.getElementById(tabname).classList.add("active-tab")
 	}
+// Function to show the current slide
+	function showAboutSlide(index) {
+		const aboutSlides = document.querySelectorAll(".about-slider img");
+		for (let i = 0; i < aboutSlides.length; i++) {
+			aboutSlides[i].style.display = "none";
+		}
+
+		aboutSlides[index].style.display = "block";
+	}
+
+	let aboutSlideIndex = 0;
+	let aboutAutoSlideInterval;
+
+	// Function to go to the next slide in the About section
+	function nextAboutSlide() {
+		aboutSlideIndex = (aboutSlideIndex + 1) % 4; // Number of slides in the about-slider
+		showAboutSlide(aboutSlideIndex);
+	}
+
+	// Start auto slide for the About section
+	function startAboutAutoSlide() {
+		aboutAutoSlideInterval = setInterval(nextAboutSlide, 4000); // Change slide every 5 seconds
+	}
+
+	// Start auto slide on page load
+	startAboutAutoSlide();
+
