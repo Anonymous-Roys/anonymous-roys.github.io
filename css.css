@@ -233,7 +233,7 @@ nav ul li a:hover::after{
 	background: #f03d76;
 }
 /* what I do */
-#portfolio{
+#project{
 	padding: 50px 0;
 }
 .work{
@@ -287,12 +287,21 @@ nav ul li a:hover::after{
 	border-radius: 50%;
 	text-align: center;
 }
-.work:hover img{
+.work:hover > img{
 	transform: scale(1.1);
 }
 .work:hover .layer{
 	height: 100%;
 }
+
+.layer img{
+	transition: all 0.5s;
+}
+
+.layer img:hover {
+	transform: scale(0.95);
+}
+
 .btn{
 	display: block;
 	margin: 50px auto;
@@ -318,6 +327,10 @@ nav ul li a:hover::after{
 .contact-left{
 	flex-basis: 35%;
 }
+.contact-left .btn{
+	pointer-events: none;
+}
+
 .contact-right{
 	flex-basis: 60%;
 }
@@ -332,7 +345,7 @@ nav ul li a:hover::after{
 	transition: transform 0.5s;
 }
 .info img:hover{
-	transform:translateY(-4px)
+	transform:translateY(-4px);
 }
 .contact-right form{
 	width: 100%;
@@ -354,6 +367,7 @@ form .btn{
 	padding: 14px 60px;
 	cursor: pointer;
 	font-size: 18px;
+	
 }
 .copy{
 	width: 100%;
