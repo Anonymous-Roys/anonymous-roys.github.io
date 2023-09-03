@@ -33,12 +33,16 @@ nav .tags{
 	right: 100px;
 	z-index: 1;
 	padding: 6px;
-	background: #08080891;
+	background: #2726266c;
 	border-radius: 7px;
 
 }
+
+
 .logo{
-	width:150px;
+	width:130px;
+	background-color: #535151b7;
+	border-radius: 60%;
 }
 nav ul li{
 	display: inline-block;
