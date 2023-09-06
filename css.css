@@ -38,7 +38,6 @@ nav .tags{
 
 }
 
-
 .logo{
 	width:130px;
 	background-color: #535151b7;
@@ -373,7 +372,9 @@ form .btn{
 	font-size: 18px;
 	
 }
-.copy{
+
+/* ------------------footer---------------- */
+.footer{
 	width: 100%;
 	text-align: center;
 	padding: 25px 0;
@@ -381,7 +382,85 @@ form .btn{
 	font-weight: 300;
 	margin-top: 20px;
 }
-/* -----------for small screen----- */ 
+
+
+
+
+/* -----------+___________SERVICES.HTML_________+---------------------------- */
+
+.service, .name {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0;
+	align-items: center;
+}
+
+.name .me {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 30px;
+	background: #4d313b54;
+	border-radius: 7px;
+	box-shadow: 3px 3px 9px #f192b0bb;
+	color: #000000e7;
+
+}
+.my .me {
+	height: 45px;
+	width: 45px;
+	font-size: 30px;
+	color: #000000ab;
+	font-weight: 900;
+}
+
+#web, #app, #lang{
+	margin-bottom: 100px;
+}
+
+/* .service_name{
+	background: #4242425b;
+	border-radius: 7px;
+	box-shadow: 3px 3px 9px #8b797f7c;
+} */
+.service_name .me{
+	background: #9492925b;
+	border-radius: 10px;
+	box-shadow: 2px 1px 7px #4b4a4b7c;
+}
+.service{
+	justify-content: space-around;
+}
+
+.service .ind{
+	margin:5px;
+	height: 140px;
+	width: 150px;
+	background: #2e2e2e70;
+	border-radius: 50px;
+	box-shadow: 3px 3px 9px #5c5a5b;
+	transition: all 0.3s ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 27px;
+}
+
+.service .ind:hover{
+	background: #2e2e2e27;
+	transform:skew(-1deg ,-1deg);
+	font-size: 38px;
+	border-radius: 7px;
+}
+
+
+
+
+
+
+
+/* -----------------------------for small screen--------------------------------- */ 
 @media only screen and (max-width: 810px){
 	#header{
 		background: url("images/serious.jpg");
