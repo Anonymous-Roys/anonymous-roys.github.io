@@ -13,7 +13,7 @@ body{
 
 #header{
 	width: 100%;
-	height: 100vh;
+	/* height: 100vh; */
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -127,8 +127,6 @@ nav ul li a:hover::after{
 }
 .about-col-1{
 	flex-basis: 35%;
-	background-color: #f192b0;
-	background: url(images/profile.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -461,30 +459,38 @@ form .btn{
 
 
 /* -----------------------------for small screen--------------------------------- */ 
-@media only screen and (max-width: 810px){
+@media only screen and (max-width: 821px){
 	#header{
-		background: url("images/serious.jpg");
-		background-repeat: no-repeat;
-		background-position: 110px 100px;
-		background-size: contain;
+		height: 45vh;
 	}
 	.profile_picture{
 		display: none;
 	}
 	.container{
 		padding: 0;
-		margin: 10px;
+		margin: 12px 40px;
+		
 	}
-
+	.adjust{
+		height: auto;
+	}
+	.hresource{
+		background: url("images/serious.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size:90%;
+		display: block;
+		height: 100%;
+		margin: 0 -1%;
+	}
 	.header-text{
-		margin: 0;
-		padding: 0;
-		width:210px;
-		height: fit-content;
+		margin: 10px 5%;
+		padding: 50px;
+		height: 150%;
 		overflow: hidden;
-		border-radius: 10px;
+		border-radius: 2px;
 		font-size: 16px;
-		background: #313131;
+		background: #31313186;
 	}
 	.header-text h1{
 		font-size: 30px;
@@ -500,29 +506,41 @@ form .btn{
 		right: 12px;
 		top: 12px;
 	}
+	.logo{
+		width: 80px;
+	}
 	nav ul{
-		background: #ff004f;
+		background: #333131;
+		
 		position: fixed;
 		top: 0;
 		right: -200px;
 		width: 200px;
-		height: 100vh;
 		padding-top: 50px;
 		z-index: 2;
+		border-radius: 8px;
 	}
 	nav ul li{
 		display: block;
-		margin: 25px;
+		margin: 7px;
+		padding: 13px;
+		background: #0000005b;
+		border-radius: 8px;
 	}
+	
 	nav ul .navbtn{
 		position: absolute;
 		top: 25px;
 		left: 25px;
 		cursor: pointer;
 	}
+
+	.row{
+		display: block;
+	}
 	/* -----------about responsive -------- */
+
 	.about-col-1 img{
-		width: 320px;
 		height: auto;
 	}
 }
