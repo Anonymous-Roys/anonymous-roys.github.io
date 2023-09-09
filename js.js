@@ -25,6 +25,8 @@ var tablinks = document.getElementsByClassName("tablinks");
 		event.currentTarget.classList.add("active-link");
 		document.getElementById(tabname).classList.add("active-tab")
 	}
+
+
 // Function to show the current slide
 	function showAboutSlide(index) {
 		const aboutSlides = document.querySelectorAll(".about-slider img");
@@ -50,5 +52,28 @@ var tablinks = document.getElementsByClassName("tablinks");
 	}
 
 	// Start auto slide on page load
-	startAboutAutoSlide();
+startAboutAutoSlide();
+	
+// -----------------------toggle button--------------
+value = 1;
+
+function darkMode() {
+    var imgElement = document.getElementById("dark");
+
+    if (value === 0) {
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "white";
+        imgElement.src = "images/toggle_image_off.png"; // Change the image source
+        imgElement.width = 30; // Set the width to 30px
+        value = 1;
+    } else {
+        document.body.style.backgroundColor = "white";
+        document.body.style.color = "black";
+        imgElement.src = "images/toggle_image_on.png"; // Change the image source back to the original
+        imgElement.width = 30; // Set the width to 30px
+        value = 0;
+    }
+}
+
+
 
