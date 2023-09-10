@@ -309,7 +309,7 @@ nav ul li a:hover::after{
 	border: 1px solid #f14b80;
 	padding: 14px 50px;
 	border-radius: 6px;
-	background: #f14b80;
+	background: #00000057;
 	text-decoration: none;
 	color: #fff;
 	transition: background 0.5s;
@@ -327,9 +327,7 @@ nav ul li a:hover::after{
 .contact-left{
 	flex-basis: 35%;
 }
-.contact-left .btn{
-	pointer-events: none;
-}
+
 
 .contact-right{
 	flex-basis: 60%;
