@@ -1,3 +1,9 @@
+function navigateToServices() {
+            const confirmation = window.alert("NOTE: Page is still under development.");
+
+        }
+
+
 // navigation controls
 function showNav() {
 	let show = document.getElementById("show")
