@@ -447,7 +447,53 @@ form .btn{
 	font-size: 20px;
 	border-radius: 7px;
 }
-
+/* ----------------SITES-------------- */
+.service .portfolio {
+	background: url('images/profile.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+}
+.service .facts {
+	background: url('images/chrome.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+}
+.service .church {
+	background: url('images/imerging_apps.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	display: flex;
+	align-items: end;
+}
+.service .shopping {
+	background: url('images/cart2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+}
+/* ----------------APPS-------------- */
+.service .online_app {
+	background: url('images/appstore.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+}
+.service .social {
+	background: url('images/browsers.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+	color: #000;
+}
+/* ----------------LANGUAGES-------------- */
 .service .python{
 	background: url('images/python.webp');
 	background-repeat: no-repeat;
@@ -457,9 +503,9 @@ form .btn{
 .service .react{
 	background: url('images/react.jpeg');
 	background-repeat: no-repeat;
-		background-size: cover;
-		display: flex;
-		align-items: end;
+	background-size: cover;
+	display: flex;
+	align-items: end;
 }
 .service .html {
 	background: url('images/html.jpeg');
