@@ -617,6 +617,10 @@ form .btn{
 		width: 115px;
 		height: 115px;
 	}
+	.service .js {
+		font-size: 10px;
+		align-items:flex-start;
+	}
 }
 
 
