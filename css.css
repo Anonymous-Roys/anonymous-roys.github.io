@@ -430,8 +430,8 @@ form .btn{
 
 .service .ind{
 	margin:5px;
-	height: 127px;
-	width: 127px;
+	height: 135px;
+	width: 135px;
 	background: #2e2e2e70;
 	border-radius: 50px;
 	box-shadow: 3px 3px 9px #5c5a5b;
@@ -612,7 +612,15 @@ form .btn{
 }
 
 
-
+@media only screen and (max-width: 400px){
+	.service{
+		
+	}
+	.service .ind{
+		width: 115px;
+		height: 115px;
+	}
+}
 
 
 
