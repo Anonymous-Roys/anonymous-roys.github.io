@@ -604,8 +604,14 @@ form .btn{
 	.row{
 		display: block;
 	}
-	/* -----------about responsive -------- */
 
+	/* -----------about responsive -------- */
+	.subtitle{
+		font-size: 30px;
+	}
+	.subtitle p{
+		font: 17px;
+	}
 	.about-col-1 img{
 		height: auto;
 	}
