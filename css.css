@@ -100,16 +100,29 @@ nav ul li a:hover::after{
 .profile_picture{
 	margin-top: 10px;
 	margin-left: 30px;
-	width: 420px;
+	width: 510px;
+	overflow: hidden;
+		-webkit-mask:
+			linear-gradient(90deg,
+				transparent,
+				rgba(0, 0, 0, 0.849) 40%,
+				rgb(255, 255, 255) 100%,
+				transparent);
+		mask:
+			llinear-gradient(90deg,
+				transparent,
+				rgba(0, 0, 0, 0.849) 40%,
+				rgb(255, 255, 255) 100%,
+				transparent);
 	
 }
 .profile_picture img{
-	border-radius: 20%;
+	border-radius: 0 10% 10% 0;
 	width: 100%;
 	transition: all 0.4s;
 }
 .profile_picture img:hover{
-	transform: scale(1.23);
+	transform: perspective(123deg);
 }
 
 
