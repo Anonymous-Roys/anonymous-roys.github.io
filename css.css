@@ -358,6 +358,10 @@ nav ul li a:hover::after{
 .info img:hover{
 	transform:translateY(-7px);
 }
+.info i:hover{
+	color: #ababab;
+}
+
 .contact-right form{
 	width: 100%;
 }
