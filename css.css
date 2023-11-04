@@ -359,7 +359,7 @@ nav ul li a:hover::after{
 	transform:translateY(-7px);
 }
 .info i:hover{
-	color: #ababab;
+	color: #000;
 }
 
 .contact-right form{
