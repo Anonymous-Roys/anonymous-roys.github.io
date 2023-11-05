@@ -1,3 +1,4 @@
+
 *{
 	margin:0;
 	padding:0;
@@ -35,12 +36,9 @@ nav .tags{
 	padding: 6px;
 	background: #2726266c;
 	border-radius: 7px;
-	cursor: pointer;
 
 }
-.tags img{
-	cursor: pointer;
-}
+
 .logo{
 	width:130px;
 	background-color: #535151b7;
@@ -359,12 +357,8 @@ nav ul li a:hover::after{
 	transition: transform 0.5s;
 }
 .info img:hover{
-	transform:translateY(-7px);
+	transform:translateY(-4px);
 }
-.info i:hover{
-	color: #000;
-}
-
 .contact-right form{
 	width: 100%;
 }
@@ -668,3 +662,4 @@ div.right::first-letter {
 	color: #ff0000;
 	font-size: xx-large;
   } */
+
