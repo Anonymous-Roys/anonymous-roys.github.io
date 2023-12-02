@@ -5,6 +5,7 @@
 	font-family: 'Nunito',
 			sans-serif;
 	box-sizing:  border-box;
+	scroll-behavior: smooth;
 }
 
 body{
@@ -110,7 +111,7 @@ nav ul li a:hover::after{
 				rgb(255, 255, 255) 100%,
 				transparent);
 		mask:
-			llinear-gradient(90deg,
+			linear-gradient(90deg,
 				transparent,
 				rgba(0, 0, 0, 0.849) 40%,
 				rgb(255, 255, 255) 100%,
@@ -145,7 +146,7 @@ nav ul li a:hover::after{
 	background-size: cover;
 }
 .about-col-1 img{
-	width: 100%;
+	width: 75%;
 	border-radius: 15px;
 	display: none;
 }
@@ -395,6 +396,17 @@ form .btn{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* -----------+___________SERVICES.HTML_________+---------------------------- */
 
 .service, .name {
@@ -627,8 +639,27 @@ form .btn{
 		font: 17px;
 	}
 	.about-col-1 img{
+		width: 32%;
+		border-radius: 15px;
+		display: none;
+		margin: auto;
 		height: auto;
+		-webkit-mask:
+			linear-gradient(90deg,
+				transparent,
+				rgba(0, 0, 0, 0.382),
+				rgb(255, 255, 255),
+				transparent);
+		mask:
+		linear-gradient(90deg,
+			transparent,
+			rgba(0, 0, 0, 0.849) 40%,
+			rgb(255, 255, 255) 100%,
+			transparent);
+		animation: about-img-show 5s ease-out infinite;
 	}
+
+	
 }
 
 
@@ -663,3 +694,22 @@ div.right::first-letter {
 	font-size: xx-large;
   } */
 
+@keyframes about-img-show{
+	0%{
+		position: relative;
+		
+	}
+	25%{
+		scale: 1.1;
+		transform: translate(-75px, -34px);
+	}
+
+	50%{
+		scale: 1.2;
+		transform: translate(75px);
+	}
+	100%{
+		position: relative;
+		
+	}
+}
