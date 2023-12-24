@@ -37,7 +37,11 @@ nav .tags{
 	padding: 6px;
 	background: #2726266c;
 	border-radius: 7px;
-
+}
+@media screen and (min-width: 830px) {
+	nav .tags{
+		backdrop-filter: blur(2.5px);
+	}
 }
 
 .logo{
