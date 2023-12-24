@@ -454,7 +454,7 @@ form .btn{
 	justify-content: space-around;
 }
 
-.service .ind{
+.service .web{
 	margin:5px;
 	height: 135px;
 	width: 135px;
@@ -468,7 +468,7 @@ form .btn{
 	font-size: 12px;
 }
 
-.service .ind:hover{
+.service .web:hover{
 	transform:skew(-1deg ,-1deg);
 	font-size: 20px;
 	border-radius: 7px;
@@ -664,7 +664,7 @@ form .btn{
 
 
 @media only screen and (max-width: 400px){
-	.service .ind{
+	.service .web{
 		width: 115px;
 		height: 115px;
 	}
