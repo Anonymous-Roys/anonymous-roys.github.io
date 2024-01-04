@@ -69,13 +69,13 @@ function darkMode() {
     if (value === 0) {
         document.body.style.backgroundColor = "black";
         document.body.style.color = "white";
-        imgElement.src = "images/toggle_image_off.png"; // Change the image source
+        imgElement.src = "images/dark_toggle.png"; // Change the image source
         imgElement.width = 30; // Set the width to 30px
         value = 1;
     } else {
         document.body.style.backgroundColor = "white";
         document.body.style.color = "black";
-        imgElement.src = "images/toggle_image_on.png"; // Change the image source back to the original
+        imgElement.src = "images/white_toggle.png"; // Change the image source back to the original
         imgElement.width = 30; // Set the width to 30px
         value = 0;
     }
