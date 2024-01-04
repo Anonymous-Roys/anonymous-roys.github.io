@@ -79,11 +79,10 @@ nav ul li a:hover::after{
 	
 }
 nav #dark{
-	background-color: #fff;
-	padding: 0 10px;
-	border-radius: 15px;
+	background-color: transparent;
 	position: fixed;
-	top: 50px;
+	width: 50px;
+	top: 42px;
 	right: 30px;
 	transition: all 0.5s;
 }
@@ -233,12 +232,14 @@ nav #dark{
 	transition: background 0.7s, transform 0.5s;
 	border-radius: 10px;
 }
+
 .services-list div h2{
 	margin-top: 80px;
 	font-size: 30px;
 	font-weight: 500;
 	margin-bottom: 15px;
 }
+
 .services-list div a{
 	text-decoration: none;
 	color: #fff;
@@ -532,6 +533,7 @@ form .btn{
 	display: flex;
 	align-items: end;
 }
+
 /* ----------------APPS-------------- */
 .service .online_app {
 	background: url('images/appstore.jpeg');
@@ -548,6 +550,8 @@ form .btn{
 	align-items: end;
 	color: #ffffff;
 }
+
+
 /* ----------------LANGUAGES-------------- */
 .service .python{
 	background: url('images/python.webp');
@@ -625,7 +629,20 @@ form .btn{
 	#show{
 		position: fixed;
 		right: 12px;
-		top: 12px;
+		top: 21.5px;
+		padding: 0px;
+		width: 27px;
+		height: 27px;
+		border-radius: 5px;
+		background-color: transparent;
+		/* z-index: 999; */
+	}
+	#tags{
+		padding: 0;
+	}
+	#show:hover{
+
+		cursor: pointer;
 	}
 	.logo{
 		width: 80px;
@@ -637,7 +654,6 @@ form .btn{
 		right: -200px;
 		width: 200px;
 		padding-top: 50px;
-		z-index: 2;
 		border-radius: 8px;
 	}
 	nav ul li{
@@ -647,20 +663,21 @@ form .btn{
 		background: #0000005b;
 		border-radius: 8px;
 	}
-	body:hover nav{
-		
-	}
+
 	nav ul .navbtn{
 		position: absolute;
 		top: 25px;
 		left: 25px;
 		cursor: pointer;
 	}
+
 	nav #dark{
-		position: absolute;
 		top: 10px;
 		right: 50px;
+		z-index: 1;
+		backdrop-filter: blur(1px);
 	}
+	
 
 	.row{
 		display: block;

@@ -11,12 +11,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-<div id="header">
+<img src="images/ellipsis-vertical-solid.svg" alt="" id="show" class="navbtn" onClick="showNav()">
+<div id="header"  onClick="hideNav()">
 	<div class="navbar">
 		<nav>
 			<img src="images/mylogo.png" class="logo">
-			
 			<div class="tags" id="tags">
 			<ul id="ul">
 				<li><a href="#">Home</a></li>
@@ -28,9 +29,8 @@
 			</ul>
 			
 			<!-- <i class="fa-duotone fa-bars fa-fade" style="--fa-primary-color: #ff00ea; --fa-secondary-color: #ff00ea;"  id="show" class="navbtn" onmouseover="showNav()"></i> -->
-			<img src="images/menu_icon.png" alt="" id="show" class="navbtn" onClick="showNav()">
 			</div>
-				<img src="images/dark_toggle.png" id="dark" onclick="darkMode()" style="width: 50px;">
+				<img src="images/dark_toggle.png" id="dark" onclick="darkMode()">
 			</nav>
 		</div>
 		
@@ -51,7 +51,7 @@
 </div>
 
 <!-- -------------about---------- -->
-<div id = "about">
+<div id = "about"   onClick="hideNav()">
 	<div id="container">
         <div class="row">
             <div class="about-col-1">
@@ -99,7 +99,7 @@
 
 </div>
 <!-- -------------------Services------ -------->
-<div id="services">
+<div id="services"   onClick="hideNav()">
 	<div class="container" >
 		<h1 class="subtitle">My Services</h1>
 		<div class="services-list">
@@ -125,7 +125,7 @@
 	</div>
 </div>
 <!-- ----------------what I do-------------- -->
-<div id="project">
+<div id="project"   onClick="hideNav()">
 	<div class="container">
 		<h1 class="subtitle">My Work</h1>
 		<div class="work-list">
@@ -162,7 +162,7 @@
 	</div>
 </div>
 <!-- -----------contact-------- -->
-<div id="content">
+<div id="content"   onClick="hideNav()">
 	<div class="container">
 		<div class="row">
 			<div class="contact-left">

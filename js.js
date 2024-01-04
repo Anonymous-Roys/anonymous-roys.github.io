@@ -6,13 +6,11 @@ function navigateToServices() {
 
 // navigation controls
 function showNav() {
-	let show = document.getElementById("show")
 	document.getElementById("ul").style.right = "0 "
 
 }
 function hideNav(){
-	let hide = document.getElementById("hide")
-	document.getElementById("ul").style.right = "-200px"
+	document.getElementById("ul").style.right = "-200px";
 }
 
 // Changing views in about section
