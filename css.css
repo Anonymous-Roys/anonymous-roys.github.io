@@ -582,6 +582,21 @@ form .btn{
 }
 
 
+.service .css {
+	background: url('images/css_image.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+}
+.service .nextjs {
+	background: url('images/nextjs.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	display: flex;
+	align-items: flex-start;
+}
+
 
 /* -----------------------------for small screen--------------------------------- */ 
 @media only screen and (max-width: 821px){
