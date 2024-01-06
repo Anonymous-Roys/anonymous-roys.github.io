@@ -509,11 +509,13 @@ form .btn{
 
 /* ----------------SITES-------------- */
 .service .portfolio {
-	background: url('images/react_forms.png');
+	background: url('images/e-commerce_desktop_up.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: end;
+	color: #0a0097;
+	font-weight: 600;
 }
 /* .service .portfolio:hover{
 	
@@ -543,13 +545,22 @@ form .btn{
 
 /* ----------------APPS-------------- */
 .service .online_app {
-	background: url('images/appstore.jpeg');
+	background: url('images/react_forms.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: end;
 }
 .service .social {
+	background: url('images/browsers.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: end;
+	color: #ffffff;
+}
+
+.service .church {
 	background: url('images/browsers.png');
 	background-repeat: no-repeat;
 	background-size: cover;
