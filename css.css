@@ -79,12 +79,13 @@ nav ul li a:hover::after{
 	
 }
 nav #dark{
-	background-color: transparent;
+	/* background-color: #e9e4e457; */
 	position: fixed;
 	width: 50px;
-	top: 42px;
+	top: 55px;
 	right: 30px;
 	transition: all 0.5s;
+	/* border-radius: 15px; */
 }
 .navbtn{
 	width: 20px;
@@ -475,6 +476,7 @@ form .btn{
 	border-radius: 7px;
 	box-shadow: 3px 3px 9px #8b797f7c;
 } */
+
 .service_name .me{
 	background: #9492925b;
 	border-radius: 10px;
@@ -499,18 +501,23 @@ form .btn{
 }
 
 .service .web:hover{
-	transform:skew(-1deg ,-1deg);
 	font-size: 20px;
 	border-radius: 7px;
+	scale: 1.9;
+	/* margin: auto; */
 }
+
 /* ----------------SITES-------------- */
 .service .portfolio {
-	background: url('images/profile.png');
+	background: url('images/react_forms.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: end;
 }
+/* .service .portfolio:hover{
+	
+} */
 .service .facts {
 	background: url('images/chrome.png');
 	background-repeat: no-repeat;
@@ -663,13 +670,14 @@ form .btn{
 		width: 80px;
 	}
 	nav ul{
-		background: #333131;
+		background: #3331319c;
 		position: fixed;
 		top: 0;
 		right: -200px;
 		width: 200px;
 		padding-top: 50px;
 		border-radius: 8px;
+		backdrop-filter: blur(5px);
 	}
 	nav ul li{
 		display: block;
@@ -687,7 +695,7 @@ form .btn{
 	}
 
 	nav #dark{
-		top: 10px;
+		top: 21.5px;
 		right: 50px;
 		z-index: 1;
 		backdrop-filter: blur(1px);
