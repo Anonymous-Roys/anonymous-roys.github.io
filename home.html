@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>www.portfolio.com</title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="shortcut icon" href="images/letterdd.png" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/645fc3a2e6.js" crossorigin="anonymous"></script>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<img src="images/ellipsis-vertical-solid.svg" alt="" id="show" class="navbtn" onClick="showNav()">
+<div id="header"  onClick="hideNav()">
+	<div class="navbar">
+		<nav>
+			<img src="images/mylogo.png" class="logo">
+			<div class="tags" id="tags">
+			<ul id="ul">
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#project">Project</a></li>
+				<li><a href="#content">Contacts</a></li>
+				<img src="images/close_icon.png" alt="" id="hide" class="navbtn" onClick="hideNav()">
+			</ul>
+			
+			</div>
+				<img src="images/dark_toggle.png" id="dark" onclick="darkMode()">
+			</nav>
+		</div>
+		
+	<div class="container adjust">
+		<div class="hresource">
+		<div class="header-text"> 
+			<p>Web Developer</p>
+			<h1>Hi  !,<br/>I am <span>David</span> Arhin</h1>
+			<p>A lovely being I am and desperately passionate about spider stuffs</p>
+			<p>Get to know more &darr;</p>
+			
+		</div>
+		<div class="profile_picture">
+			<img src="images/serious.jpg" alt="my_profile_picture">
+		</div>
+	</div>
+	</div>
+</div>
+
+<!-- -------------about---------- -->
+<div id = "about"   onClick="hideNav()">
+	<div id="container">
+        <div class="row">
+            <div class="about-col-1">
+                <div class="about-slider">
+                    <img src="images/normal.jpg" alt="Slide 1" title="UMaT(FMMT)">
+                    <img src="images/mib.jpg" alt="Slide 2"  title="UMaT(Software Lab)">
+                    <img src="images/prefect2.jpg" alt="Slide 3" title="Sectech(NSMQ)">
+                    <img src="images/blue_shirt.jpg" alt="Slide 4" title="UMaT(FMMT)">
+                </div>
+            </div>
+			<div class="about-col-2">
+				<h1 class="subtitle">About Me</h1>
+				<p>Being passionate about something doesn't matter the challenges
+					that may come it way. With perserverance and persistence, progress is made 
+					each and every blessed day. Until you succeed, work's always available.</p>
+					<div class="tabtitle">
+						<p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tablinks" onclick="opentab('experience')">Experience</p>
+						<p class="tablinks" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Web</span><br>Designing Web interfaces</li>
+							<li><span>App</span><br>Android App development with online tools</li>
+							<li><span>Python</span><br>Beginner Python Programmer</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>Freelancer</span><br>2022-Date</li>
+							<li><span>NGO</span><br/>2023-Date</li>
+							<li><span>Imhogen(Internship)</span><br>2023</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>Bachelor</span><br>University of Mines And Technology</li>
+							<li><span>WASSCE</span><br>O'Sectech</li>
+							<li><span>Preparatory</span><br>Sojoy Preparatory School</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- -------------------Services------ -------->
+<div id="services"   onClick="hideNav()">
+	<div class="container" >
+		<h1 class="subtitle">My Services</h1>
+		<div class="services-list">
+			<div>
+				<h2>Web Design</h2>
+				<p> We design quality and reponsive websites for 
+					all people. Contact us for it all.</p>
+					<a href="services.html#web" onclick="navigateToServices()">Learn More</a>
+			</div>
+			<div>
+			<h2>App Design</h2>
+			<p> I am into android app development using online tools. 
+				Working with me is fun.</p>
+				<a href="ideationaxis.com" onclick="navigateToServices()">Learn More</a>
+			</div>
+			<div>
+			<h2>Python Consoles</h2>
+			<p> I am a beginner in solving problems using  python. 
+				Contact me for it all.</p>
+				<a href="services.html#lang" onclick="navigateToServices()">Learn More</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ----------------what I do-------------- -->
+<div id="project"   onClick="hideNav()">
+	<div class="container">
+		<h1 class="subtitle">My Work</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="images/media.jpeg" alt="teaching">
+				<div class="layer">
+					<h3>Web App Development</h3>
+					<p>Designing social media platforms</p>
+						<a href="https://65ec3d4f731082833e956501--ecommercedemo-1.netlify.app/">
+							<img src="images/github.png" alt="instagram">
+						</a>
+				</div>
+			</div>
+			<div class="work">
+				<img src="images/music_player.jpeg" alt="nursing">
+				<div class="layer">
+					<h3>Music App</h3>
+					<p>Music, a very important and powerful element in life.</p>
+						<a href="services.html"><img src="images/github.png" alt="instagram"></a>
+				</div>		
+			</div>
+			<div class="work">
+				<img src="images/shopping_woman.avif" alt="stand">
+				<div class="layer">
+					<h3>Online shopping platforms</h3>
+					<p>Uses languages: python, php,etc</p>
+						<a href="https://github.com/Anonymous-Roys/online_shopping.git">
+							<img src="images/github.png" alt="instagram">
+						</a>
+				</div>
+			</div>
+		</div>
+		<a href="https://github.com/Anonymous-Roys" class="btn">See more</a>
+	</div>
+</div>
+<!-- -----------contact-------- -->
+<div id="content"   onClick="hideNav()">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="subtitle">Contact Me</h1>
+				<p>
+					<img src="images/whatsapp.png" alt="wifi" title="Whatsapp me "> 
+					0256798179
+				</p>
+				<p>
+					<img src="images/telephone.png" alt="telephone" style="background-color: rgba(252, 252, 252, 0.226);" title="Call me"> 
+					+233256798179
+				</p>
+				<div class="info">
+					<a href="https://www.instagram.com/jhunnie_kayroy/" target="_blank" title="My IG"><img src="images/instagram.png" alt="instagram"></a>
+					<a href="https://web.facebook.com/davs.jake" target="_blank" title="My FB"><img src="images/facebook.png" alt="facebook"></a>
+					<a href="mailto:davidarhin2005@gmail.com"><img src="images/gmail.png" alt="gmail" title="My Gmail"></a>
+					<a href="https://www.linkedin.com/in/david-arhin-09a0a026" target="_blank" title="My linkedin"><img src="images/linkedin.png" alt="linkedIn"></a>
+				</div>
+				<a href ="images/frontend.pdf" download class="btn" title="download frontend roadmap">Download Project Calender <span><i class="fa-solid fa-download fa-beat-fade" style="color: #ff00ae;"></i></span></a>
+			</div>
+			<div class="contact-right">
+				<form action="">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name= "Email" placeholder="Your Email" required>
+					<textarea rows="6" name = "Message" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Copyright @ Daves.</p>
+	</div> 
+</div>
+
+
+<script src="js.js">
+	
+</script>
+
+
+<!-- <div class="right">In my younger and more vulnerable years 
+	my father gave me some advice that I've been turning over 
+	in my mind ever since</div> -->
+</body>
+</html>
